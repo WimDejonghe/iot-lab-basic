@@ -5,8 +5,8 @@
   "main": "index.js",
 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "author": "Wim",
@@ -18,16 +18,10 @@
     
     
   },
-  "directories": {
-    "doc": "docs"
-  },
   
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WimDejonghe/iot-lab-basic.git"
-  },
-  "bugs": {
-    "url": "https://github.com/WimDejonghe/iot-lab-basic/issues"
-  },
-  "homepage": "https://github.com/WimDejonghe/iot-lab-basic#readme"
+  }
+  
 }

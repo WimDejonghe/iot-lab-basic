@@ -2,8 +2,8 @@
 home: true
 navbar: false
 heroImage: /images/hero.jpg
-heroText: Linux Essentials
-tagline: Linux Essentials Course for VIVES University of Applied Sciences (Bachelor Degree)
+heroText: Iot Lab Basic
+tagline: Internet Of Things Course for VIVES University of Applied Sciences (Graduate Degree)
 actions:
   - text: Get Started →
     link: /about-this-course/
@@ -14,12 +14,11 @@ actions:
 features:
  - title: Basic Programming Concepts
    details: Learn the basic programming concepts found in almost any programming language.
- - title: Object Oriented Programming
-   details: Build custom classes, create objects and learn how an object oriented application is build.
- - title: Graphical User Interface
-   details: .NET allows modern graphical applications to be build using the Windows Presentation Foundation framework.
+ - title: Microcontroller ESP32 software development
+   details: Learn to program microcontrollers in a modern enviroment.
+ - title: Microcontroller ESP32 hardware engineering
+   details: Learn to extend by hardware the possibilities of a microcontroller.
 footer: Made by the Wim with ❤️
 ---
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-Probeer

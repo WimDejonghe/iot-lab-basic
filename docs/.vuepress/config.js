@@ -7,6 +7,7 @@ module.exports = {
   lang: 'en-US',
   title: 'Starter template',
   description: 'Starter template',
+  
 
   theme: defaultTheme({
     //logo: '/images/linux.png',
@@ -37,15 +38,7 @@ module.exports = {
   }),
   serviceWorker: true,
   plugins: [
-    [
-      'vuepress-plugin-mathjax',
-      {
-        target: 'svg',
-        macros: {
-          '*': '\\times',
-        },
-      },
-    ],
+    
 
 
     containerPlugin({
@@ -62,7 +55,5 @@ module.exports = {
     
   ],
 
-  extendMarkdown: md => {
-    md.use(require('markdown-it-mathjax3'), { tex: {tags: 'ams'}})
-  }
+  //extendsMarkdown: md => { md.use(require('markdown-it-mathjax3')); },
 }

@@ -37,17 +37,6 @@ module.exports = {
   }),
   serviceWorker: true,
   plugins: [
-    [
-      'vuepress-plugin-mathjax',
-      {
-        target: 'svg',
-        macros: {
-          '*': '\\times',
-        },
-      },
-    ],
-
-
     containerPlugin({
       type: 'codeoutput',
       locales: {

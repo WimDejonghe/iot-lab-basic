@@ -1,7 +1,7 @@
 ---
 home: true
 navbar: false
-heroImage: /images/hero.jpg
+heroImage: https://www.vives.be/sites/default/files/uploads/huisstijl/Logo VIVES Hogeschool - Smile.png
 heroText: Iot Lab Basic
 tagline: Internet Of Things Course for VIVES University of Applied Sciences (Graduate Degree)
 actions:

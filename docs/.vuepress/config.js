@@ -3,11 +3,13 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { path } from '@vuepress/utils'
 
+//module.exports= ({ extendsMarkdown: md => { md.use(require('markdown-it-mathjax3')); } })
+
 module.exports = {
-  lang: 'en-US',
-  title: 'Starter template',
-  description: 'Starter template',
-  
+  lang: 'nl_BE',
+  title: 'IoT Lab Basic',
+  description: 'Curus voor Graduaat studenten Internet Of Things VIVES Kortrijk',
+  //extendsMarkdown: md => { md.use(require('markdown-it-mathjax3')); },
 
   theme: defaultTheme({
     //logo: '/images/linux.png',
@@ -55,5 +57,5 @@ module.exports = {
     
   ],
 
-  //extendsMarkdown: md => { md.use(require('markdown-it-mathjax3')); },
+  
 }

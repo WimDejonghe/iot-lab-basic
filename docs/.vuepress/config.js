@@ -12,7 +12,7 @@ module.exports = {
   //extendsMarkdown: md => { md.use(require('markdown-it-mathjax3')); },
 
   theme: defaultTheme({
-    //logo: '/images/linux.png',
+    logo: 'https://www.vives.be/sites/default/files/uploads/huisstijl/Logo VIVES Hogeschool - Smile.png',
     navbar: [
       { text: 'Toledo', link: 'https://toledo.kuleuven.be/portal' },
       { text: 'Report Issue', link: 'https://github.com/BioBoost/course_linux_essentials/issues' },

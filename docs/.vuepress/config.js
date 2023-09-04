@@ -24,7 +24,7 @@ module.exports = {
         link: '/about-this-course/README.md',
       },
       {
-        text: 'Introduction to Programming',
+        text: 'ESP32 en Visual Studio Code',
         children: [
           '/a-introductory/01-introduction/README.md',
           '/a-introductory/02-introduction/README.md',

@@ -48,7 +48,6 @@ module.exports = {
          
           '/c-esp32/01-digout/README.md',
           '/c-esp32/02-digin/README.md',
-                   
         ]
       },
       {
@@ -56,8 +55,6 @@ module.exports = {
         children: [
          
           '/d-var/01-vars/README.md',
-          
-                   
         ]
       },
       {

@@ -13,8 +13,13 @@ Onderaan VSC wordt een blauwe werkbalk met icoontjes weergegeven dat belangrijk 
 Met volgende mogelijkheden:
 > - PlatformIo Home (1);
 > - Build/Compile (2);
-• Upload het programma naar de controller (3);
-• Verwijder het programma (4);
-• Start de serial monitor (5);
-• Open een nieuw venster (6).
+> - Upload het programma naar de controller (3);
+> - Verwijder het programma (4);
+> - Start de serial monitor (5);
+> - Open een nieuw venster (6).
+
+
+***
+
+
 

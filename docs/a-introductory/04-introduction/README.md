@@ -24,8 +24,9 @@ Er wordt een nieuw project toegevoegd aan de Workspace. Open platformio.ini en v
 
 VS Code en PlatformIO hebben een mappenstructuur die verschilt van het standaard .ino-project. Als u op het tabblad Verkenner klikt, ziet u alle bestanden die het heeft gemaakt in uw projectmap. Het lijkt misschien veel bestanden om mee te werken. Maar maak je geen zorgen, meestal hoef je alleen maar met een of twee van die bestanden om te gaan.
 
-> **Warning**
-> Let op, je verwijdert, wijzigt of verplaatst best die bestanden niet. Anders kunt u uw project niet meer compileren met PlatformIO.
+:::warning
+Let op, je verwijdert, wijzigt of verplaatst best die bestanden niet. Anders kunt u uw project niet meer compileren met PlatformIO.
+:::
 
 **platformio.ini file**
 
@@ -86,7 +87,7 @@ In onderstaande figuur hebben beide methodes nog geen code. Er staat bij beide e
 <p style="color:lightgreen; margin:10px">
 Vervolledig de code van de setup- en de loop-methode zoals in de Figuur.
 Zorg dat de code identiek is als in de figuur omdat bij schrijffouten het programma niet zal werken.
-Hou ook rekening met kleine- en hoofdletters want de code is case-sensitief.</br>
+Hou ook rekening met kleine- en hoofdletters want de code is case-sensitief.<br>
 Wat de code doet wordt voorlopig niet besproken.
 </p>
 </div>

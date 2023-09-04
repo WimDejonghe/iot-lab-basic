@@ -33,6 +33,24 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'ESP32 pinnen',
+        children: [
+          '/b-esp32/01-pinlayout/README.md',
+          '/b-esp32/02-powermanag/README.md',
+          
+                   
+        ]
+      },
+      {
+        text: 'ESP32 GPIO',
+        children: [
+         
+          '/c-esp32/01-digout/README.md',
+          '/c-esp32/02-digin/README.md',
+                   
+        ]
+      },
      
     ],
     sidebarDepth: 1,

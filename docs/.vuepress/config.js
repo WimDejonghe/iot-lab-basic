@@ -29,6 +29,7 @@ module.exports = {
           '/a-introductory/01-introduction/README.md',
           '/a-introductory/02-introduction/README.md',
           '/a-introductory/03-introduction/README.md',
+          '/a-introductory/04-introduction/README.md',
           
         ]
       },

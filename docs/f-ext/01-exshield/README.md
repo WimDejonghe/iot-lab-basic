@@ -89,16 +89,17 @@ void loop() {
 
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: Maak een programma waarbij de spanning op de analoge ingang A2 wordt gelezen en doorgestuurd wordt naar een seriële monitor op de PC.</br>
+Opdracht: Maak een programma waarbij de spanning op de analoge ingang A2 wordt gelezen en doorgestuurd wordt naar een seriële monitor op de PC.<br>
 Sluit een potentiometer aan op de analoge ingang A2 via een breadbord.
 </p>
 </div>
 
 ***
 
+<html>
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: Maak een programma waarbij de spanning op de analoge ingang A4 (is dit hetzelfde als pin36?, zoek dit op) wordt gelezen en 4 leds stuurt afhankelijk van de gemeten waarde volgens onderstaande tabel</br>
+Opdracht: Maak een programma waarbij de spanning op de analoge ingang A4 (is dit hetzelfde als pin36?, zoek dit op) wordt gelezen en 4 leds stuurt afhankelijk van de gemeten waarde volgens onderstaande tabel<br>
 Maak gebruik van de ESP32-shield.
 </p>
 <table>
@@ -110,35 +111,35 @@ Maak gebruik van de ESP32-shield.
     <th>LED4</th>
   </tr>
   <tr bgcolor="DimGray">
-    <td>X<=819 (<=20%)</td>
+    <td>X&lt=819 (&lt=20%)</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr bgcolor="Gray">
-    <td>819 < X <= 1638 <br> 20% < X <= 40%</td>
+    <td>819 &lt X &lt= 1638 <br> 20% &lt X &lt= 40%</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr bgcolor="DimGray">
-    <td>1638 < X <= 2457 <br> 40% < X <= 60%</td>
+    <td>1638 &lt X &lt= 2457 <br> 40% &lt X &lt= 60%</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
   </tr>
   <tr bgcolor="Gray">
-    <td>2457 < X <= 3276 <br> 60% < X <= 80%</td>
+    <td>2457 &lt X &lt= 3276 <br> 60% &lt X &lt= 80%</td>
     <td>1</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
   </tr>
   <tr bgcolor="DimGray">
-    <td>3276 < X <= 4095 <br> 80% < X <= 100%</td>
+    <td>3276 &lt X &lt= 4095 <br> 80% &lt X &lt= 100%</td>
     <td>1</td>
     <td>1</td>
     <td>1</td>
@@ -146,6 +147,7 @@ Maak gebruik van de ESP32-shield.
   </tr>
 </table>
 </div>
+</html>
 
 ***
 

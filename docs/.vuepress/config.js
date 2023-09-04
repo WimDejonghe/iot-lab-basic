@@ -51,6 +51,33 @@ module.exports = {
                    
         ]
       },
+      {
+        text: 'Variabelen in C',
+        children: [
+         
+          '/d-var/01-vars/README.md',
+          
+                   
+        ]
+      },
+      {
+        text: 'Analoge IO',
+        children: [
+         
+          '/e-ana/01-ana-in/README.md',
+          '/e-ana/02-ana-out/README.md',         
+                   
+        ]
+      },
+      {
+        text: 'Extension Shield',
+        children: [
+         
+          '/f-ext/01-exshield/README.md',
+             
+                   
+        ]
+      },
      
     ],
     sidebarDepth: 1,

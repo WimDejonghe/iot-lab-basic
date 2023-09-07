@@ -9,6 +9,10 @@ module.exports = {
   lang: 'nl_BE',
   title: 'IoT Lab Basic',
   description: 'Curus voor Graduaat studenten Internet Of Things VIVES Kortrijk',
+   head: [
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?familiy=Material+Icons' }],
+    ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML', async: true }]
+  ],
   //extendsMarkdown: md => { md.use(require('markdown-it-mathjax3')); },
 
   theme: defaultTheme({

@@ -186,7 +186,7 @@ Opdracht: Digitale ingang blokgolf.
 <li>Als de drukknop niet is ingedrukt moet er een blokgolfspanning op een uitgang gegenereerd worden met een periode van 50Hz met een duty cycle van 50% (Ton = Toff).</li>
 <li>Als de drukknop is ingedrukt moet er een blokgolfspanning op een uitgang gegenereerd worden met een periode van 100Hz met een duty cycle van 50% (Ton = Toff).</li>
 </ul>
-Visualiseer het resultaat met een oscilloscoop.
+Visualiseer het resultaat met een oscilloscoop. Leg de werking uit van de oscilloscoop. Verklaar duidelijk wat Volt/div en Time/div is op basis van uw signalen. Zoek op wat duty cycle is en verklaar.
 </p>
 </div>
 
@@ -199,7 +199,7 @@ Opdracht: Digitale ingang tellen.
 <li>Maak een systeem waarbij je het aantal keer telt dat de drukknop is ingedrukt.</li>
 <li>Als de drukknop 10 keer is ingedrukt moet er een led op een uitgang gaan branden.</li>
 </ul>
-Bij de elfde keer drukken gaat de LED weer uit en begint alles opnieuw, 10 keer LED 1 keer aan, ....
+Bij de elfde keer drukken gaat de LED weer uit en begint alles opnieuw, 10 keer LED 1 keer aan, .... Leg duidelijk uit hoe een flankdetectie werkt en wat dender is!
 </p>
 </div>
 

@@ -5,34 +5,31 @@ mathjax:
 
 # PWM hardware en opdrachten
 
-Om het programmeren wat eenvoudiger te maken gaan we gebruik maken van een ESP32 shield.
+Het schema van de PWM-uitgang is weergegeven en is dezelfde om een LED digitaal aan te sturen, met die uitzondering dat hier de LED dimbaar is.
 
+![example image](./images/schema1.png "Een PWM-uitgang op de ESP32.")
 
-
-De shield heeft 4 drukknoppen, 8 leds, een trimmer en een connector om SPI- en I2C componenten aan te sluiten. In de volgende tabel is weergegeven wat de naam en op welke IO-pin deze zijn aangesloten. De connector met de SPI en I²C aansluitingen zijn niet weergegeven maar deze kan een goede technicus uit het schema van de volgende figuur halen.
-
-
-| Naam | IO-pin |
-| ----------- |:------------:|
-| SW1| 39 | 
-| SW2| 34| 
-| SW3| 25 | 
-| SW4| 26 | 
-| LED1| 21 | 
-| LED2| 14 | 
-| LED3| 32 | 
-| LED4| 15 | 
-| LED5| 33 | 
-| LED6| 27 | 
-| LED7| 12 | 
-| LED8| 13 | 
-| POT| A4 | 
-
-
-
+***
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht8: Wijzig bij het onzichtbaar knipperen (door de hoge knipperfrequentie) de AAN-tijd tot 10% van de knipperperiode. Wat is dit in seconden? wat is dan de UIT-tijd in seconden? Let wel de knipperfrequentie mag niet wijzigen. Meet met de oscilloscoop. Bereken en bepaal het verband met uw delay tijden. 
+Opdracht: Vier drukknoppen die een PWM-uitgang besturen. Maak een programma waarbij de helderheid van de LED7 op de shield gedimd kan worden.
+</p>
+<ul>
+<li style="color:white">Als op SW1 gedrukt wordt moet de led uit gaan.</li>
+<li style="color:white">Als op SW2 gedrukt wordt moet de led op 33% van zijn volle lichtsterkte branden.</li>
+<li style="color:white">Als op SW3 gedrukt wordt moet de led op 66% van zijn volle lichtsterkte branden.</li>
+<li style="color:white">Als op SW4 gedrukt wordt moet de led op 100% van zijn volle lichtsterkte branden.</li>
+</ul>
+<p style="color:lightgreen; margin:10px">
+Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid.</p>
+</div>
+
+![example image](./images/oef1.png "Esp32 opstelling met shield.")
+
+***
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:lightgreen; margin:10px">
+Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid van de LED4 op de shield gedimd kan worden.
 </p>
 </div>
 

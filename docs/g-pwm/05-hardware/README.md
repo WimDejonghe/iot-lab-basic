@@ -34,3 +34,11 @@ Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid v
 </div>
 
 ***
+
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:lightgreen; margin:10px">
+Opdracht: 2 Leds dimmen met een trimmer. Zorg dat de twee Leds invers tov. elkaar dimmen.
+</p>
+</div>
+
+***

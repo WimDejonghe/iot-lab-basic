@@ -48,18 +48,8 @@ Een echte debug-tool met breakpoints is zonder extra hardware echter niet mogeli
 
 
 
-
-
-
-<YoutubeVideo videoId="fr1E9aVnBxw" />
-
-Probeersel
-
-$$e^{i}+1=0$$
-
 ![alt ](./images/hero.jpg)
 
 
-$\delta = \frac{T_{on}} {T}.100\%$
 
 :tada: :100:

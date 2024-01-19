@@ -3,7 +3,7 @@ mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
 
-# PWM
+# PWM hardware en opdrachten
 
 Om het programmeren wat eenvoudiger te maken gaan we gebruik maken van een ESP32 shield.
 

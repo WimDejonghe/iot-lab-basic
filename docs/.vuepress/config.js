@@ -83,7 +83,11 @@ module.exports = {
         text: 'PWM',
         children: [
          
-          '/g-pwm/01-pwm/README.md',
+          '/g-pwm/01-werking/README.md',
+          '/g-pwm/02-pinnen/README.md',
+          '/g-pwm/03-software/README.md',
+          '/g-pwm/04-dimmen/README.md',
+          '/g-pwm/05-hardware/README.md',
              
                    
         ]

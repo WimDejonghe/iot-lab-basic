@@ -79,6 +79,15 @@ module.exports = {
                    
         ]
       },
+      {
+        text: 'PWM',
+        children: [
+         
+          '/g-pwm/01-pwm/README.md',
+             
+                   
+        ]
+      },
      
     ],
     sidebarDepth: 1,

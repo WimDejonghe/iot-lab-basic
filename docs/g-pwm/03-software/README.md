@@ -11,14 +11,14 @@ Er zijn twee manieren om een PWM signaal te genereren met een vast frequentie ee
 
 We bespreken hier enkel de tweede methode.
 
-De EPS32 heeft 16 onafhankelijke kanalen die ingesteld kunnen worden om PWM signalen tegenereren met verschillende eigenschappen.
+De EPS32 heeft 16 onafhankelijke kanalen die ingesteld kunnen worden om PWM signalen te genereren met verschillende eigenschappen.
 
 De verschillende stappen die je moet doorlopen worden zijn:
-> - PWM-kanaal kiezen: <br> Kies een PWM kanaal om te gebruiken. Er zijn er 16 met een nummer van 0 tot 15. Om het gemakkelijk te maken maak je gebruik van een constante en geef deze een duidelijke naam. Bijvoorbeeld:
+> - PWM-kanaal kiezen: <br> Kies een PWM kanaal om te gebruiken. Er zijn er 16 met een nummer van 0 tot en met 15. Om het gemakkelijk te maken, gebruik een constante en geef deze een duidelijke naam. Bijvoorbeeld:
 ```cpp
 #define LED_KANAAL 2
 ```
-> - PWM-frequentie bepalen: <br> Vervolgens stel je de frequentie in van het PWM signaal. Voor een LED te dimmen is een frequentie van 500Hz voldoende. Om het gemakkelijk te maken gebruik een constante die je een duidelijke naam geeft. Bijvoorbeeld:
+> - PWM-frequentie bepalen: <br> Vervolgens stel je de frequentie in van het PWM signaal. Voor een LED te dimmen is een frequentie van 500Hz zeker voldoende. Om het gemakkelijk te maken gebruik een constante die een duidelijke naam krijgt. Bijvoorbeeld:
 ```cpp
 #define LED_FREQUENTIE 500
 ```
@@ -26,12 +26,14 @@ De verschillende stappen die je moet doorlopen worden zijn:
 ```cpp
 #define LED_RESOLUTIE 8
 ```
-> - PWM-frequentie -en resolutie aan het kanaal toewijzen: <br> De gekozen frequentie en de resolutie moeten aan het gekozen kanaal toegewezen worden. Daarvoor gebruik je de methode:
+> - PWM-frequentie en -resolutie aan het kanaal toewijzen: <br> De gekozen frequentie en de resolutie moeten aan het gekozen kanaal toegewezen worden. Daarvoor gebruik je de methode:
+
 ```cpp
 ledcSetup(channel, freq, resolution_bits);
 ```
 
 De eerste parameter is het te gebruiken kanaal. De tweede parameter de frequentie en de laatste parameter de resolutie. In het voorbeeld van de led wordt dit:
+
 ```cpp
 ledcSetup(LED_KANAAL, LED_FREQUENTIE, LED_RESOLUTIE);
 ```

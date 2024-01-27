@@ -21,7 +21,7 @@ Opdracht: Vier drukknoppen die een PWM-uitgang besturen. Maak een programma waar
 <li style="color:white">Als op SW4 gedrukt wordt moet de led op 100% van zijn volle lichtsterkte branden.</li>
 </ul>
 <p style="color:lightgreen; margin:10px">
-Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle. </p>
+Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle. Bepaal ook op het beeld de Nult-volt en de amplitude. Bepaal telkens de gemiddelde spanning van het signaal. </p>
 </div>
 
 ![example image](./images/oef1.png "Esp32 opstelling met shield.")

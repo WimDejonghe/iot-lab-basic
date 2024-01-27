@@ -21,7 +21,7 @@ Opdracht: Vier drukknoppen die een PWM-uitgang besturen. Maak een programma waar
 <li style="color:white">Als op SW4 gedrukt wordt moet de led op 100% van zijn volle lichtsterkte branden.</li>
 </ul>
 <p style="color:lightgreen; margin:10px">
-Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid.</p>
+Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle. </p>
 </div>
 
 ![example image](./images/oef1.png "Esp32 opstelling met shield.")
@@ -29,7 +29,7 @@ Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderhei
 ***
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid van de LED4 op de shield gedimd kan worden.
+Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid van de LED4 op de shield gedimd kan worden. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
 </p>
 </div>
 
@@ -37,7 +37,7 @@ Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid v
 
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: 2 Leds dimmen met een trimmer. Zorg dat de twee Leds invers tov. elkaar dimmen.
+Opdracht: 2 Leds dimmen met een trimmer. Zorg dat de twee Leds invers tov. elkaar dimmen. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
 </p>
 </div>
 

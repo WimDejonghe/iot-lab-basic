@@ -12,7 +12,7 @@ Het schema van de PWM-uitgang is weergegeven en is dezelfde om een LED digitaal 
 ***
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: Vier drukknoppen die een PWM-uitgang besturen. Maak een programma waarbij de helderheid van de LED7 op de shield gedimd kan worden.
+Opdracht1: Vier drukknoppen die een PWM-uitgang besturen. Maak een programma waarbij de helderheid van de LED7 op de shield gedimd kan worden.
 </p>
 <ul>
 <li style="color:white">Als op SW1 gedrukt wordt moet de led uit gaan.</li>
@@ -21,7 +21,10 @@ Opdracht: Vier drukknoppen die een PWM-uitgang besturen. Maak een programma waar
 <li style="color:white">Als op SW4 gedrukt wordt moet de led op 100% van zijn volle lichtsterkte branden.</li>
 </ul>
 <p style="color:lightgreen; margin:10px">
-Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle. Bepaal ook op het beeld de Nult-volt en de amplitude. Bepaal telkens de gemiddelde spanning van het signaal. </p>
+Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderheid. Als er niet op een drukknop wordt gedrukt, dan bepaalt de laatste drukknop keuze de helderheid van de LED. Bij de start is de LED UIT (gedoofd).</p>
+
+<p style="color:lightgreen; margin:10px">
+Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle. Bepaal ook op het beeld de Nult-volt en de amplitude. Bepaal telkens de gemiddelde spanning van het signaal. </p>
 </div>
 
 ![example image](./images/oef1.png "Esp32 opstelling met shield.")
@@ -29,7 +32,7 @@ Gebruik bij het dimmen een periode T van 10ms. Zorg voor prioriteit op helderhei
 ***
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid van de LED4 op de shield gedimd kan worden. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
+Opdracht2: Led dimmen met een trimmer. Maak een programma waarbij de helderheid van de LED4 op de shield gedimd kan worden. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
 </p>
 </div>
 
@@ -37,7 +40,7 @@ Opdracht: Led dimmen met een trimmer. Maak een programma waarbij de helderheid v
 
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht: 2 Leds dimmen met een trimmer. Zorg dat de twee Leds invers tov. elkaar dimmen. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
+Opdracht3: 2 Leds dimmen met een trimmer. Zorg dat de twee Leds invers tov. elkaar dimmen. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
 </p>
 </div>
 

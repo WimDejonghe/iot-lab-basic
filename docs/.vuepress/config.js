@@ -38,6 +38,15 @@ module.exports = {
         ]
       },
       {
+        text: 'Extra Library',
+        children: [
+          '/h-bib/README.md',
+          
+          
+                   
+        ]
+      },
+      {
         text: 'ESP32 pinnen',
         children: [
           '/b-esp32/01-pinlayout/README.md',

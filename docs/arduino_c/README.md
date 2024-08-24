@@ -3,9 +3,8 @@ mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
 
-Hier is een uitgebreidere versie van de cursus met uitleg over variabelen, soorten variabelen, selecties (if-statements) en iteraties (loops):
 
-```markdown
+
 # Cursus: Arduino C Programmeren voor Beginners
 
 ---
@@ -237,6 +236,3 @@ Deze cursus is ontworpen om beginners kennis te laten maken met de basisprincipe
 ---
 
 Deze cursus biedt een stevige basis om door te stromen naar meer geavanceerde Arduino-projecten en om de vaardigheden die je leert toe te passen in de echte wereld. Veel succes en vooral veel plezier met het ontdekken van de wereld van Arduino en elektronica!
-```
-
-Deze versie bevat nu ook een sectie over variabelen, soorten variabelen, selecties (if-statements) en iteraties (loops). Dit geeft een completer overzicht van de basisprincipes van programmeren in C voor Arduino.

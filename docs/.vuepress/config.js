@@ -71,6 +71,13 @@ module.exports = {
         ]
       },
       {
+        text: 'Starten met C',
+        children: [
+         
+          '/arduino_c/README.md',
+        ]
+      },
+      {
         text: 'Analoge IO',
         children: [
          
